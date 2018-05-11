@@ -61,7 +61,7 @@
 			font-size: 18px;
 			border: none;
 			outline: none;
-			background: url("../img/cd-top-arrow.svg") center no-repeat #cd53534a;
+			background: #cd53534a url("../img/cd-top-arrow.svg") center no-repeat;
 			color: white;
 			cursor: pointer;
 			padding: 15px;
@@ -202,7 +202,8 @@
 		    color: #ffffff;
 		    background: #cd5353;
 		    border-radius: 6px;
-		    -moz-border-radius: 6px -webkit-border-radius:6px;
+		    -moz-border-radius: 6px;
+		    -webkit-border-radius: 6px;
 		    -ms-border-radius: 6px;
 		    -o-border-radius: 6px;
 		    padding: 1px 12px;
